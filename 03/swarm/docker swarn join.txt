@@ -1,0 +1,4 @@
+    docker swarm join --token SWMTKN-1-5lz3c3ripnpsz66bwr21bmam9t3oiwf42wtsjos6ocl2rvbf38-0w0y7zx5j0hicijcoyca1j9yz 172.21.0.3:2377
+
+
+docker container exec -it worker01 docker swarm join --token SWMTKN-1-5lz3c3ripnpsz66bwr21bmam9t3oiwf42wtsjos6ocl2rvbf38-0w0y7zx5j0hicijcoyca1j9yz manager:2377
