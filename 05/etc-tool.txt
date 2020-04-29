@@ -1,0 +1,6 @@
+freshpod - 이미지 업데이트되면 파드 자동 업데이트
+
+https://github.com/GoogleCloudPlatform/freshpod
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/minikube/ec1b443722227428bd2b23967e1b48d94350a5ac/deploy/addons/freshpod/freshpod-rc.yaml
+#kubectl apply -f https://raw.githubusercontent.com/kubernetes/minikube/master/deploy/addons/freshpod/freshpod-rc.yaml

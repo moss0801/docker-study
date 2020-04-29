@@ -1,0 +1,8 @@
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
+https://storage.googleapis.com/kubernetes-release/release/v{version}/bin/windows/amd64/kubectl.exe
+https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/windows/amd64/kubectl.exe
+
+1. 버전을 변경해서 다운로드
+2. 파일 저장된 경로를 PATH에 추가
+3. 테스트 및 버전확인 'kubectl version --client' or 'kubectl version'
